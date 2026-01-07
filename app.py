@@ -63,7 +63,7 @@ if st.button("Destroy My Plan"):
                         }
                     ],
                     # We use Llama-3 70B because it is smart and free on Groq
-                    model="llama3-70b-8192", 
+                    model="llama-3.3-70b-versatile", 
                     temperature=0.6,
                 )
 
